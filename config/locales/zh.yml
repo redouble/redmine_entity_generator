@@ -1,7 +1,7 @@
 zh:
-  heading_entity_new: New Entity
-  button_redmine_entity_generator: Redmine Entity Generator
-  button_entity_new: New Entity
+  heading_entity_new: 新实体
+  button_redmine_entity_generator: 实体生成器
+  button_entity_new: 新实体
   error_bad_entity_input: Please fill in all fields (plugin name, entity name, field names...)
   error_server_not_restarted: New entity was created, but the server was not restarted and there are no changes visible.
   field_acts_as_activity_provider: Activity Provider
@@ -23,7 +23,7 @@ zh:
     field_acts_as_watchable_description: Allows to be watched by users
     field_author_description: Has author
     field_project_description: Has project
-  field_entity_name: Name
+  field_entity_name: 名称
   field_entity_association_type: Association type
   field_entity_association_entity: Association entity
   field_entity_association_name: Association name
@@ -41,25 +41,27 @@ zh:
   label_add_entity: Add entity
   label_additional_fields: Additional fields
   label_basic_fields: Basic fields
-  label_datetime: Date and time
+  label_datetime: 日期时间
+  label_time: 时间
   label_decimal: Decimal
-  label_entity: Entity
-  label_plugin: Plugin
-  label_entity_field: Fields
-  label_new_plugin: 'New plugin with name:'
-  label_timestamp: Timestamp
+  label_entity: 实体
+  label_plugin: 插件
+  label_entity_field: 字段
+  label_new_plugin: '新插件名称：'
+  label_timestamp: 时间戳
   label_features: Features
   label_associations: Associations
   label_has_one: Has one
   label_has_many: Has many
   label_belongs_to: Belongs to
   label_add_entity_association: Add association
-  label_remove_entity: Remove Entity
+  label_remove_entity: 移除实体
   notice_entity_created: "New entity was created. Now it's neccessary to migrate data and restart web server. Please ask your IT administrator."
-  entity_generator_create_entity: Create Entity
+  entity_generator_create_entity: 创建实体
+  note_generator_head: 备注：生成器标题
   note_plugin_name_input_value: 'Note: Plugin name should be in camel case, e.g. NewPluginName in ASCII'
   note_entity_name_input_value: 'Note: Entity name should be in camel case and singular, e.g. NewEntityName in ASCII'
   note_plugin_association_input_value: 'Optional class name in camel case'
   note_plugin_association_name_input_value: 'Association name in snake case, e.g. issues (has many), issue (belongs_to)'
   note_plugin_association_class_name_input_value: 'Optional class name in camel case'
-  permission_entity_generator_create_entity: Create entity
+  permission_entity_generator_create_entity: 创建实体
